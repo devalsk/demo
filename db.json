@@ -1,14 +1,40 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1234" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "vacancies": [
+    {
+      "id": 1,
+      "date": "01.05.2018",
+      "header": "Программист PHP",
+      "zp_min": "15000",
+      "zp_max": "20000",
+      "company": {
+        "title": "Моя компания"
+      },
+      "demands": "",
+      "descriptive": "Работа в уютном офисе",
+      "contact": {
+        "street": "Ленина",
+        "bilding": "46",
+        "phone": "89601111111",
+        "email": "devsk@yandex.ru"
+      }
+    },
+    {
+      "id": 2,
+      "date": "02.05.2018",
+      "header": "Программист java",
+      "zp_min": "18000",
+      "zp_max": "50000",
+      "company": {
+        "title": "Моя компания"
+      },
+      "demands": "Опыт",
+      "descriptive": "Работа в уютном офисе",
+      "contact": {
+        "street": "Ленина",
+        "bilding": "46",
+        "phone": "89601111111",
+        "email": "devsk@yandex.ru"
+      }
+    }
+  ]
 }
